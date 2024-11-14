@@ -9,6 +9,14 @@
 [![Codecov test
 coverage](https://codecov.io/gh/ncn-foreigners/nonprobsvy/branch/main/graph/badge.svg)](https://app.codecov.io/gh/ncn-foreigners/nonprobsvy?branch=main)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10280114.svg)](https://doi.org/10.5281/zenodo.10280114)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/nonprobsvy)](https://CRAN.R-project.org/package=nonprobsvy)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/nonprobsvy)](https://cran.r-project.org/package=nonprobsvy)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/nonprobsvy)](https://cran.r-project.org/package=nonprobsvy)
+[![Mentioned in Awesome Official
+Statistics](https://awesome.re/mentioned-badge.svg)](https://github.com/SNStatComp/awesome-official-statistics-software)
 
 <!-- badges: end -->
 
@@ -49,11 +57,18 @@ Details on use of the package be found:
 
 ## Installation
 
-You can install the recent version of `nonprobsvy` package from
-[Github](https://github.com/ncn-foreigners/nonprobsvy) with:
+You can install the recent version of `nonprobsvy` package from main
+branch [Github](https://github.com/ncn-foreigners/nonprobsvy) with:
 
 ``` r
 remotes::install_github("ncn-foreigners/nonprobsvy")
+```
+
+or install the stable version from
+[CRAN](https://CRAN.R-project.org/package=nonprobsvy)
+
+``` r
+install.packages("nonprobsvy")
 ```
 
 or development version from the `dev` branch
@@ -488,6 +503,11 @@ summary(result_dr)
 #>   1.000   1.071   1.313   1.479   1.798   2.647 
 #> -------------------------
 #> 
+#> Covariate balance:
+#> (Intercept)          x2 
+#>  25062.8473   -517.5862 
+#> -------------------------
+#> 
 #> Residuals:
 #>     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
 #> -0.99999  0.06603  0.23778  0.26046  0.44358  0.62222 
@@ -594,6 +614,11 @@ summary(result_ipw)
 #>   1.000   1.071   1.313   1.479   1.798   2.647 
 #> -------------------------
 #> 
+#> Covariate balance:
+#> (Intercept)          x2 
+#>  25062.8473   -517.5862 
+#> -------------------------
+#> 
 #> Residuals:
 #>     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
 #> -0.99999  0.06603  0.23778  0.26046  0.44358  0.62222 
@@ -606,7 +631,7 @@ summary(result_ipw)
 ## Funding
 
 Work on this package is supported by the National Science Centre, OPUS
-22 grant no. 2020/39/B/HS4/00941.
+20 grant no. 2020/39/B/HS4/00941.
 
 ## References (selected)
 
