@@ -1,7 +1,7 @@
 Package: nonprobsvy
 Type: Package
 Title: Inference Based on Non-Probability Samples
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: 
     c(person(given = "Łukasz",
              family = "Chrostowski",
@@ -28,14 +28,14 @@ BugReports: https://github.com/ncn-foreigners/nonprobsvy/issues
 Depends: R (>= 4.0.0), survey
 Imports: maxLik, stats, Matrix, MASS, ncvreg, RANN, Rcpp (>= 1.0.12),
         nleqslv, doParallel, foreach, parallel, formula.tools
-Suggests: tinytest, covr, sampling, spelling,
+Suggests: tinytest, covr, spelling
 LinkingTo: Rcpp, RcppArmadillo
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2025-03-27 09:57:02 UTC; berenz
+Packaged: 2025-04-22 07:52:07 UTC; berenz
 Author: Łukasz Chrostowski [aut, ctb],
   Maciej Beręsewicz [aut, cre] (<https://orcid.org/0000-0002-8281-4301>),
   Piotr Chlebicki [aut, ctb] (<https://orcid.org/0009-0006-4867-7434>)
 Maintainer: Maciej Beręsewicz <maciej.beresewicz@ue.poznan.pl>
 Repository: CRAN
-Date/Publication: 2025-03-27 11:50:10 UTC
+Date/Publication: 2025-04-22 15:40:02 UTC
