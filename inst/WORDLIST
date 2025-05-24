@@ -1,3 +1,4 @@
+Awuku
 Bugfixes
 CBOP
 CMD
@@ -17,6 +18,7 @@ MCP
 NACE
 NN
 Nonprobability
+Oliwia
 PMM
 Pengfei
 Rui
@@ -44,6 +46,7 @@ github
 glm
 inv
 jacobian
+ldots
 loess
 loglik
 maximisation
@@ -53,8 +56,6 @@ modelling
 neighbour
 neighbours
 nonprob
-nonprobability
-non-probability
 penalizations
 preprint
 probablity
@@ -64,3 +65,5 @@ sampl
 svydesign
 Ł
 ’Dplyr’
+Chrostowski
+chrostowski
